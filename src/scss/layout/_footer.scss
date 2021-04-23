@@ -1,8 +1,13 @@
 .page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+  background-color: #304268;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav__list {
+}
+.small-icon {
+  width: 10px;
+  height: 10px;
+  color: red;
 }
