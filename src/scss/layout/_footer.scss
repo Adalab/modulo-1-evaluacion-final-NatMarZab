@@ -9,6 +9,21 @@
   background-color: white;
   border-radius: 50%;
 }
+.buttonup {
+  animation-name: up;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+@keyframes up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
 .page__footer {
   position: relative;
   background-color: #304268;
